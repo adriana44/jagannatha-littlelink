@@ -65,8 +65,9 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#ffffff;
-	color:#1a1a1a;
+	/* background-color:#4A2352; */
+	background-image:linear-gradient(-135deg,#4A2352,#692f75,#4A2352);
+	color:#dcb4e4;
 	font-family:"Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
