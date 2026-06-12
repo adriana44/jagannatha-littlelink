@@ -65,10 +65,11 @@
   body {
 	margin:0;
 	padding:0;
-	/* background-color:#4A2352; */
-	background-image:linear-gradient(-135deg,#4A2352,#692f75,#4A2352);
-	color:#dcb4e4;
-	font-family:"Open Sans",system-ui;
+
+	background-color:#3f1847;
+	color:#f7dcfc;
+
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
@@ -222,8 +223,10 @@ a:hover {
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
-	width: 8rem;             /* 128px */
-	height: 8rem;
+	/* width: 8rem;             128px */
+	/* height: 8rem; */
+	height: 10rem;
+	width: auto;
 	object-fit: cover;
 	background-position: center;
 	margin-bottom: var(--spacing-l);
